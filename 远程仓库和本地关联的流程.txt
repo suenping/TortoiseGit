@@ -1,0 +1,34 @@
+流程如下：
+1.申请 github的账号  ，登录进去
+2.点击右上角加号，点击 New repository 创建新项目
+3.在新项目上添加项目名称 ，描述
+4.点击创建的按钮，就可以了
+
+
+5.本地，新创建个文件夹 es6code
+6.打开文件夹，在文件夹中 点击右键，选择 git bash
+7.在命令窗口输入 git init 进行初始化
+8.在es6code文件夹中创建 README.md文件
+9.git add *
+10.git commit -m "第一次提交代码"
+
+11.将本地库和 远程仓库进行关联
+git remote add origin https://github.com/yinyinyinyinyin/web21.git
+
+12.将本地代码推到 github上的主分支上
+注意：你们需要输入 用户名  和密码
+
+
+git push -u origin master
+
+13.将es6的代码复制到 es6code
+
+14.git add *
+
+15.git commit -m " add es6"
+
+16.将本地已经提交的代码推到 github上
+git push -u origin master
+
+17.在github上查看代码
+

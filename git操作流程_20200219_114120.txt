@@ -1,0 +1,49 @@
+1.在桌面创建一个文件夹  gittest
+2.打开gittest文件夹 点击右键，打开 git bash
+3.在git bash 上输入命令：git init (初始化项目)
+
+一.新增文件步骤
+1.在 gittest文件夹中创建 aa.txt bb.html
+2.在git bash 上输入命令: git status 查看该文件夹下面的文件状态
+3.在git bash 上输入命令：git add aa.txt bb.html
+4.在git bash 上输入命令: git status 查看该文件夹下面的文件状态
+5.在git bash 上输入命令：git commit -m "第一次提交代码"
+6.在git bash 上输入命令: git status 查看该文件夹下面的文件状态
+
+二.修改文件的步骤
+1.在 gittest文件夹中打开 bb.html,将以下代码复制进去
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		hello  git
+	</body>
+</html>
+2.在git bash 上输入命令: git status 查看该文件夹下面的文件状态
+3.在git bash 上输入命令：git add bb.html
+4.在git bash 上输入命令: git status 查看该文件夹下面的文件状态
+5.在git bash 上输入命令：git commit -m "提交修改代码"
+6.在git bash 上输入命令: git status 查看该文件夹下面的文件状态
+
+三.删除文件的步骤
+1.在 gittest文件夹中删除 aa.txt
+
+2.在git bash 上输入命令: git status 查看该文件夹下面的文件状态
+3.在git bash 上输入命令：git add bb.html
+4.在git bash 上输入命令: git status 查看该文件夹下面的文件状态
+5.在git bash 上输入命令：git commit -m "提交修改代码"
+6.在git bash 上输入命令: git status 查看该文件夹下面的文件状态
+
+
+四.忽略文件的做法
+1.在hbuilder 中创建新的  .gitignore 文件 
+2.将该文件复制到 gittest 文件夹下
+3.将要忽略的文件名写在这个文件里
+
+
+
+
+
